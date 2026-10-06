@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muhammad Usman | SOC Analyst & SIEM Engineer</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; background-color: #0b0f19; color: #f3f4f6; }
+        .font-mono { font-family: 'JetBrains Mono', monospace; }
+        .glow-teal { box-shadow: 0 0 30px -10px rgba(20, 184, 166, 0.25); }
+    </style>
+</head>
+<body class="min-h-screen flex flex-col justify-between selection:bg-teal-500 selection:text-black">
+
+    <!-- Top Navigation -->
+    <header class="sticky top-0 z-50 backdrop-blur-md bg-[#0b0f19]/80 border-b border-slate-800/80">
+        <div class="max-w-4xl mx-auto px-6 h-16 flex justify-between items-center">
+            <a href="#" class="text-teal-400 font-mono text-sm tracking-wider uppercase font-bold flex items-center gap-2">
+                <span class="w-2 h-2 rounded-full bg-teal-400 animate-pulse"></span>
+                Usman / SOC
+            </a>
+            <nav class="hidden md:flex gap-6 text-xs font-medium">
+                <a href="#workspace" class="text-slate-300 hover:text-teal-400 transition">Workspace</a>
+                <a href="#projects" class="text-slate-300 hover:text-teal-400 transition">Projects</a>
+                <a href="#integrations" class="text-slate-300 hover:text-teal-400 transition">Integrations</a>
+                <a href="#experience" class="text-slate-300 hover:text-teal-400 transition">Experience</a>
+                <a href="#replay" class="text-slate-300 hover:text-teal-400 transition">Replay</a>
+                <a href="https://medium.com/@usmannazir5503" target="_blank" class="text-teal-400 hover:underline">Articles ↗</a>
+            </nav>
+            <a href="https://github.com/usmannazir5503" target="_blank" class="text-xs font-mono px-3 py-1.5 rounded-full border border-slate-700 hover:border-teal-500 transition">GitHub ↗</a>
+        </div>
+    </header>
+
+    <!-- Main Container -->
+    <main class="max-w-4xl mx-auto px-6 py-12 md:py-20 w-full">
+        
+        <!-- Hero Section -->
+        <section class="mb-20">
+            <div class="inline-block text-xs font-mono text-teal-400 tracking-widest uppercase px-3 py-1 rounded-full bg-teal-950/60 border border-teal-800/40 mb-4">
+                SOC Analyst / Security Engineer / Wazuh Ambassador
+            </div>
+            <h1 class="text-4xl md:text-6xl font-bold tracking-tight mb-6 text-white">
+                SIEM <span class="text-transparent bg-clip-text bg-gradient-to-r from-teal-400 to-blue-500">Engineer</span>
+            </h1>
+            <p class="text-lg md:text-xl text-slate-300 leading-relaxed mb-6">
+                I turn security telemetry into useful detections, clearer investigations, and faster automated response.
+            </p>
+            <p class="text-slate-400 text-sm md:text-base leading-relaxed mb-8 max-w-2xl">
+                Based in Pakistan. I work across SIEM architecture, endpoint and network monitoring, log pipeline forwarding, and SOC automation — from the first alert to final case notes.
+            </p>
+
+            <!-- Action Buttons -->
+            <div class="flex flex-wrap gap-4 mb-12">
+                <a href="#projects" class="bg-teal-400 text-slate-950 font-semibold px-6 py-3 rounded-xl text-sm hover:bg-teal-300 transition flex items-center gap-2 shadow-lg shadow-teal-500/10">
+                    Explore my work 
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
+                </a>
+                <a href="#integrations" class="border border-slate-700 hover:border-teal-500/80 text-slate-200 font-medium px-6 py-3 rounded-xl text-sm transition">
+                    View Integrations ↓
+                </a>
+            </div>
+
+            <!-- Stats Grid -->
+            <div class="grid grid-cols-2 md:grid-cols-3 gap-6 py-8 border-y border-slate-800/80">
+                <div>
+                    <div class="text-3xl md:text-4xl font-extrabold text-white mb-1">10+</div>
+                    <div class="text-xs text-slate-400 uppercase tracking-wider font-mono">Lab Deployments</div>
+                </div>
+                <div>
+                    <div class="text-3xl md:text-4xl font-extrabold text-teal-400 mb-1">2+</div>
+                    <div class="text-xs text-slate-400 uppercase tracking-wider font-mono">Centralized Pipelines</div>
+                </div>
+                <div>
+                    <div class="text-3xl md:text-4xl font-extrabold text-white mb-1">5+</div>
+                    <div class="text-xs text-slate-400 uppercase tracking-wider font-mono">Automation Workflows</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Terminal Workspace Box -->
+        <section id="workspace" class="mb-20">
+            <div class="text-xs font-mono text-teal-400 uppercase tracking-widest mb-3">A Closer Look</div>
+            <h2 class="text-2xl md:text-3xl font-bold text-white mb-4">Inside my SOC workspace.</h2>
+            <p class="text-slate-400 text-sm mb-6">A simulated view of my operational focus areas and pipeline configuration.</p>
+            
+            <div class="rounded-2xl bg-slate-900/90 border border-slate-800 p-5 font-mono text-xs md:text-sm glow-teal">
+                <div class="flex items-center gap-2 mb-4 pb-3 border-b border-slate-800 text-slate-500">
+                    <span class="w-3 h-3 rounded-full bg-red-500/80 inline-block"></span>
+                    <span class="w-3 h-3 rounded-full bg-yellow-500/80 inline-block"></span>
+                    <span class="w-3 h-3 rounded-full bg-green-500/80 inline-block"></span>
+                    <span class="ml-2 text-slate-400">usman@soc — portfolio</span>
+                </div>
+                <div class="space-y-3 text-slate-300">
+                    <p><span class="text-teal-400">usman@soc:~$</span> whoami</p>
+                    <p class="text-slate-400 pl-4">Muhammad Usman · Wazuh Ambassador · SIEM & Defensive Operations</p>
+                    <p><span class="text-teal-400">usman@soc:~$</span> cat pipeline.config</p>
+                    <p class="text-teal-300 pl-4">Wazuh SIEM ➔ Filebeat Telemetry ➔ Graylog Centralization ➔ n8n Automation</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Featured Projects Section -->
+        <section id="projects" class="mb-20">
+            <div class="text-xs font-mono text-teal-400 uppercase tracking-widest mb-3">01 / Selected Work</div>
+            <h2 class="text-2xl md:text-3xl font-bold text-white mb-4">Built for real security operations.</h2>
+            <p class="text-slate-400 text-sm mb-8">Deployments, detection engineering, and SOC pipelines built in lab and operational setups.</p>
+            
+            <div class="grid gap-6">
+                <!-- Project 1 -->
+                <div class="p-6 rounded-2xl bg-slate-900/50 border border-slate-800 hover:border-teal-500/50 transition">
+                    <div class="flex justify-between items-start mb-3">
+                        <span class="text-xs font-mono px-2.5 py-1 rounded-md bg-teal-950 text-teal-300 border border-teal-800/50">Core Pipeline</span>
+                        <span class="text-xs font-mono text-slate-500">PROJECT / 01</span>
+                    </div>
+                    <h3 class="font-bold text-white text-xl mb-2">Centralized SOC Log Pipeline</h3>
+                    <p class="text-slate-400 text-sm mb-4">Engineered a multi-node log pipeline streaming Wazuh SIEM telemetry to Graylog using Docker, WSL2, and Filebeat for centralized threat visibility across endpoints.</p>
+                    <div class="flex flex-wrap gap-2 mb-4">
+                        <span class="text-xs font-mono px-2 py-0.5 rounded bg-slate-800 text-slate-300">Wazuh</span>
+                        <span class="text-xs font-mono px-2 py-0.5 rounded bg-slate-800 text-slate-300">Graylog</span>
+                        <span class="text-xs font-mono px-2 py-0.5 rounded bg-slate-800 text-slate-300">Filebeat</span>
+                        <span class="text-xs font-mono px-2 py-0.5 rounded bg-slate-800 text-slate-300">Docker</span>
+                    </div>
+                    <a href="https://github.com/usmannazir5503" target="_blank" class="text-xs font-mono text-teal-400 hover:underline inline-flex items-center gap-1">View Repository ↗</a>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="p-6 rounded-2xl bg-slate-900/50 border border-slate-800 hover:border-teal-500/50 transition">
+                    <div class="flex justify-between items-start mb-3">
+                        <span class="text-xs font-mono px-2.5 py-1 rounded-md bg-teal-950 text-teal-300 border border-teal-800/50">Automation & Triage</span>
+                        <span class="text-xs font-mono text-slate-500">PROJECT / 02</span>
+                    </div>
+                    <h3 class="font-bold text-white text-xl mb-2">Automated Phishing & Alert Triage Platform</h3>
+                    <p class="text-slate-400 text-sm mb-4">Integrated Wazuh SIEM alerts with Windows endpoint telemetry, custom log parsing scripts, and n8n workflows to flag malicious vectors and automate alert triage.</p>
+                    <div class="flex flex-wrap gap-2 mb-4">
+                        <span class="text-xs font-mono px-2 py-0.5 rounded bg-slate-800 text-slate-300">n8n</span>
+                        <span class="text-xs font-mono px-2 py-0.5 rounded bg-slate-800 text-slate-300">Wazuh</span>
+                        <span class="text-xs font-mono px-2 py-0.5 rounded bg-slate-800 text-slate-300">Python</span>
+                        <span class="text-xs font-mono px-2 py-0.5 rounded bg-slate-800 text-slate-300">Windows Telemetry</span>
+                    </div>
+                    <a href="https://github.com/usmannazir5503" target="_blank" class="text-xs font-mono text-teal-400 hover:underline inline-flex items-center gap-1">View Repository ↗</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Integrations & Stack Section -->
+        <section id="integrations" class="mb-20">
+            <div class="text-xs font-mono text-teal-400 uppercase tracking-widest mb-3">02 / Integrations & Architecture</div>
+            <h2 class="text-2xl md:text-3xl font-bold text-white mb-4">Connected telemetry & pipelines.</h2>
+            <p class="text-slate-400 text-sm mb-8">The open-source integrations and log forwarding layers I build and configure.</p>
+
+            <div class="grid gap-4">
+                <!-- Integration 1 -->
+                <div class="p-5 rounded-xl bg-slate-900/60 border border-slate-800">
+                    <div class="flex justify-between items-center mb-2">
+                        <h3 class="font-bold text-white text-base">Wazuh SIEM ➔ Graylog Centralization</h3>
+                        <span class="text-xs font-mono px-2 py-0.5 rounded bg-teal-950 text-teal-300 border border-teal-800/50">Log Pipeline</span>
+                    </div>
+                    <p class="text-slate-400 text-sm">Engineered a multi-node log streaming pipeline using Docker, WSL2, and Filebeat to forward Wazuh SIEM logs into Graylog for centralized enterprise visibility.</p>
+                </div>
+
+                <!-- Integration 2 -->
+                <div class="p-5 rounded-xl bg-slate-900/60 border border-slate-800">
+                    <div class="flex justify-between items-center mb-2">
+                        <h3 class="font-bold text-white text-base">Windows Endpoint Telemetry ➔ Wazuh</h3>
+                        <span class="text-xs font-mono px-2 py-0.5 rounded bg-teal-950 text-teal-300 border border-teal-800/50">Endpoint Ingestion</span>
+                    </div>
+                    <p class="text-slate-400 text-sm">Configured Wazuh agents on Windows machines to ingest Sysmon event logs and standard event channels for deep behavioral monitoring and anomaly detection.</p>
+                </div>
+
+                <!-- Integration 3 -->
+                <div class="p-5 rounded-xl bg-slate-900/60 border border-slate-800">
+                    <div class="flex justify-between items-center mb-2">
+                        <h3 class="font-bold text-white text-base">Wazuh SIEM ➔ n8n Security Automation</h3>
+                        <span class="text-xs font-mono px-2 py-0.5 rounded bg-teal-950 text-teal-300 border border-teal-800/50">SOAR / Automation</span>
+                    </div>
+                    <p class="text-slate-400 text-sm">Built automated security pipelines linking Wazuh alerts to n8n workflows for severity filtering, log parsing, and instant analyst notifications.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience & Roles Section -->
+        <section id="experience" class="mb-20">
+            <div class="text-xs font-mono text-teal-400 uppercase tracking-widest mb-3">03 / Experience & Community</div>
+            <h2 class="text-2xl md:text-3xl font-bold text-white mb-4">Hands-on, across the SOC.</h2>
+            <p class="text-slate-400 text-sm mb-8">Practical security operations, log analysis, and community contribution.</p>
+
+            <div class="space-y-6 border-l border-slate-800 pl-6 ml-2">
+                <!-- Role 1 -->
+                <div class="relative">
+                    <span class="absolute -left-[31px] top-1.5 w-3 h-3 rounded-full bg-teal-400 border-4 border-[#0b0f19]"></span>
+                    <div class="text-xs font-mono text-teal-400 mb-1">September 2026 — Present</div>
+                    <h3 class="font-bold text-white text-lg">Wazuh Ambassador</h3>
+                    <div class="text-sm text-slate-400 mb-2">Wazuh Community • Pakistan</div>
+                    <p class="text-slate-300 text-sm leading-relaxed">
+                        Sharing practical technical content, implementation guides, labs, and SOC use cases focused on open-source security monitoring.
+                    </p>
+                </div>
+
+                <!-- Role 2 -->
+                <div class="relative">
+                    <span class="absolute -left-[31px] top-1.5 w-3 h-3 rounded-full bg-slate-700 border-4 border-[#0b0f19]"></span>
+                    <div class="text-xs font-mono text-slate-500 mb-1">Cybersecurity Internship</div>
+                    <h3 class="font-bold text-white text-lg">SOC Analyst Intern</h3>
+                    <div class="text-sm text-slate-400 mb-2">ITSOLERA • Islamabad</div>
+                    <p class="text-slate-300 text-sm leading-relaxed">
+                        Completed a hands-on cybersecurity internship focusing on Wazuh SIEM telemetry, incident investigation, log parsing, and security architecture under professional mentorship.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Interactive Incident Replay Section -->
+        <section id="replay" class="mb-20">
+            <div class="text-xs font-mono text-teal-400 uppercase tracking-widest mb-3">04 / Simulation</div>
+            <h2 class="text-2xl md:text-3xl font-bold text-white mb-2">Replay an incident.</h2>
+            <p class="text-slate-400 text-sm mb-6">Select a sample alert to watch how telemetry moves through the automated detection stack.</p>
+
+            <div class="p-6 rounded-2xl bg-slate-900 border border-slate-800">
+                <!-- Trigger Buttons -->
+                <div class="flex flex-wrap gap-2 mb-6">
+                    <button onclick="replayIncident('ssh')" id="btn-ssh" class="px-4 py-2 rounded-xl text-xs font-mono font-semibold bg-teal-500 text-slate-950 transition">SSH Brute Force</button>
+                    <button onclick="replayIncident('malware')" id="btn-malware" class="px-4 py-2 rounded-xl text-xs font-mono font-semibold bg-slate-800 text-slate-300 hover:bg-slate-700 transition">Malicious File</button>
+                </div>
+
+                <!-- Simulation Steps Display -->
+                <div id="simulation-output" class="space-y-3 font-mono text-xs bg-slate-950 p-4 rounded-xl border border-slate-800/80 text-slate-300">
+                    <p class="text-teal-400">[+] Initializing telemetry stream...</p>
+                    <p>[Endpoint] Wazuh agent captured 27 failed login attempts.</p>
+                    <p>[Wazuh SIEM] Rule 5763 triggered (Level 10 - High Severity).</p>
+                    <p>[n8n Automation] Severity filter passed ➔ forwarding to webhook.</p>
+                    <p>[Slack Alert] Notification dispatched to #soc-alerts channel.</p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="border-t border-slate-900 py-8 text-center text-xs text-slate-500 font-mono">
+        Designed & Built by Muhammad Usman • Hosted on GitHub Pages
+    </footer>
+
+    <!-- Interactive Script for Simulation -->
+    <script>
+        function replayIncident(type) {
+            const output = document.getElementById('simulation-output');
+            const btnSsh = document.getElementById('btn-ssh');
+            const btnMalware = document.getElementById('btn-malware');
+
+            if (type === 'ssh') {
+                btnSsh.className = "px-4 py-2 rounded-xl text-xs font-mono font-semibold bg-teal-500 text-slate-950 transition";
+                btnMalware.className = "px-4 py-2 rounded-xl text-xs font-mono font-semibold bg-slate-800 text-slate-300 hover:bg-slate-700 transition";
+                output.innerHTML = `
+                    <p class="text-teal-400">[+] Replaying SSH Brute Force Incident...</p>
+                    <p>[Endpoint] Wazuh agent detected 27 failed SSH logins from external IP.</p>
+                    <p>[Wazuh SIEM] Rule 5763 matched (Level 10 / High Severity).</p>
+                    <p>[n8n Automation] Filter verified high severity ➔ triggered enrichment pipeline.</p>
+                    <p class="text-teal-300">[Alert Dispatched] Sent to Slack #soc-alerts with automated context.</p>
+                `;
+            } else {
+                btnMalware.className = "px-4 py-2 rounded-xl text-xs font-mono font-semibold bg-teal-500 text-slate-950 transition";
+                btnSsh.className = "px-4 py-2 rounded-xl text-xs font-mono font-semibold bg-slate-800 text-slate-300 hover:bg-slate-700 transition";
+                output.innerHTML = `
+                    <p class="text-amber-400">[+] Replaying Malicious File Execution Incident...</p>
+                    <p>[Endpoint] Sysmon Event ID 1: Suspicious executable spawned from temp directory.</p>
+                    <p>[Wazuh SIEM] FIM and Custom Rule matched (Level 12 / Critical).</p>
+                    <p>[n8n Automation] Automated containment webhook executed.</p>
+                    <p class="text-teal-300">[Incident Logged] Host isolated and alert escalated to Slack.</p>
+                `;
+            }
+        }
+    </script>
+</body>
+</html>
